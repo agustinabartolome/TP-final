@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+
+nav.navbar{
+    background-color: rgb(255, 238, 187);
+}
+
+
+.informacion{
+    max-width: 1000px;
+    margin:auto;
+    text-align: center;
+}
+
+.foto{
+    position: relative;
+}
+
+.foto img{
+    border-radius: 100%;
+    border: solid rgb(255, 238, 187);
+}
+    
+.card{
+    background-color: rgb(255, 238, 187);   
+}
+
+.formacion{
+    padding: 80px 0 70px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.formacion{
+    text-align: center;
+}
+
+.formacion h4{
+    display:inline-block;
+    border:2px solid rgb(255, 238, 187);
+    background-color: rgb(255, 238, 187);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.formacion .estudios{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.experiencia{
+    padding: 80px 0 70px 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 238, 187);
+}
+
+.experiencia h4{
+    display:inline-block;
+    border:2px solid rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.habilidades{
+    padding: 80px 0 70px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.habilidades h4{
+    display:inline-block;
+    border:2px solid rgb(255, 238, 187);
+    background-color: rgb(255, 238, 187);
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.contacto{
+    padding: 80px 0 70px 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 238, 187);
+}
+
+.contacto h4{
+    display:inline-block;
+    border:2px solid rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 10px;
+}
